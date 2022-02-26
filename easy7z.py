@@ -12,7 +12,7 @@ print("Date of last backup")
 print(dateoflastbackup)
 
 folderstoback = "backupfiles.txt"
-backupto = "D:/Back2/"
+backupto = "C:/Users/david/OneDrive"
 
 with open(folderstoback) as f:
     content = f.readlines()
